@@ -3,6 +3,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+import re
 # MOB
 import requests
 
@@ -87,12 +88,19 @@ class Dict(object):
         # Dict Name:Code [ele.get_attribute('...')]
         # input[Code], brick, Paragraph[text[Name]]
         # print(help(menu1))
-        lista = (i.get_attribute("onclick") for i in menu1.find_elements_by_css_selector("input"))
-        list_pc = (i.get_attribute("text") for i in menu1.find_elements_by_css_selector("b"))
-        # list_users = (i.get_property("text") for i in menu1.find_elements_by_css_selector(":not(a[style='color:#999']) > a"))
-        list_users = (i.get_property("text") for i in menu1.find_elements_by_css_selector('a') if i.get_property("style")["color"] == '' )
-        for i in list_users:
-            print(i)
+        lista = [i.get_attribute("onclick") for i in menu1.find_elements_by_css_selector("input")]
+        list_pc = [i.get_attribute("text") for i in menu1.find_elements_by_css_selector("b")]
+        list_users = [i.get_property("text") for i in menu1.find_elements_by_css_selector('a') if i.get_property("style")["color"] == '' ]
+        txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
+        resa = re.search("\(.*?,", txt)
+        # https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=370161&lang=rec&lp=DEEN
+        print("https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=" + resa.group()[1:-1:] + "&lang=rec&lp=DEEN")
+        # print(resa)
+        # for user in list_users:
+        #     if user == " Halmafelix":
+        #         print()
+        # for i in lista:
+            # print(12:)
         # Press it
         actions = ActionChains(driver)
         actions.move_to_element_with_offset(button2,0,0)
