@@ -125,10 +125,10 @@ def run():
             break
     # MOD
     outF = open("anki.txt", "a")
-    line = args.word + "\t"+ str(result.translation_tuples[0][1][:str(result.translation_tuples[0][1]).index(" "):]) + "[sound:" + args.word + ".mp3]"
+    line = str(result.translation_tuples[0][0][:str(result.translation_tuples[0][0]).index(" "):]) + "\t"+ str(result.translation_tuples[0][1][:str(result.translation_tuples[0][1]).index(" "):]) + "[sound:" + args.word + ".mp3]"
     outF.write(line)
     outF.write("\n")
-    outF.close() 
+    outF.close()
     # MOB  
 
 if __name__ == "__main__":
