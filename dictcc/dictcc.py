@@ -97,7 +97,10 @@ class Dict(object):
         lista = [i.get_attribute("onclick") for i in menu1.find_elements_by_css_selector("input")]
         list_pc = [i.get_attribute("text") for i in menu1.find_elements_by_css_selector("b")]
         list_users = [i.get_property("text") for i in menu1.find_elements_by_css_selector('a') if i.get_property("style")["color"] == '' ]
-        txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
+        try:
+            txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
+        except ValueError:
+            txt = lista[len(list_pc)] # may add -1 
         resa = re.search("\(.*?,", txt)
         # https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=370161&lang=rec&lp=DEEN
         mp3_Url = "https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=" + resa.group()[1:-1:] + "&lang=rec&lp=DEEN"
