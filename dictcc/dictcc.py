@@ -101,8 +101,11 @@ class Dict(object):
             txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
         except ValueError:
             print("didin't find Halmaflix")
-            txt = lista[len(list_pc)] # may add -1 
+            txt = lista[len(list_pc) - 1] 
+        # print(txt)
         resa = re.search("\(.*?,", txt)
+        if resa == None:
+            resa = re.search("\(.*?,", txt)
         # https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=370161&lang=rec&lp=DEEN
         mp3_Url = "https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=" + resa.group()[1:-1:] + "&lang=rec&lp=DEEN"
         print(mp3_Url)
