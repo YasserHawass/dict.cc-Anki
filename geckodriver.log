@@ -4218,3 +4218,189 @@ bail@chrome://marionette/content/sync.js:237:64
 bail@chrome://marionette/content/sync.js:237:64
 1580912127799	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
 bail@chrome://marionette/content/sync.js:237:64
+1580913799792	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileoJupFF"
+*** You are running in headless mode.
+1580913801935	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580913802047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580913802047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580913802047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580913802047	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580913803782	Marionette	INFO	Listening on port 52093
+1580913803961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580913809588	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580913809855	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580913809857	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914905716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileoXaU6b"
+*** You are running in headless mode.
+1580914907791	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580914907901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580914907901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580914907901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580914907901	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580914909503	Marionette	INFO	Listening on port 53312
+1580914909899	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580914915670	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914915933	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914915969	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914957150	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileF0iqIH"
+*** You are running in headless mode.
+1580914957638	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580914957746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580914957746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580914957746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580914957746	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580914959257	Marionette	INFO	Listening on port 53524
+1580914959272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580914961542	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914961835	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580914961842	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915012731	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofilebvvPzy"
+*** You are running in headless mode.
+1580915013362	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915013477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915013477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915013477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915013477	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915015272	Marionette	INFO	Listening on port 53725
+1580915015357	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915020526	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915020776	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915020779	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915049860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileY54APH"
+*** You are running in headless mode.
+1580915052533	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915052645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915052645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915052645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915052645	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915054680	Marionette	INFO	Listening on port 53975
+1580915055165	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915057687	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915057974	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915058003	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915194236	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileF5WLJb"
+*** You are running in headless mode.
+1580915197122	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915197247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915197247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915197247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915197247	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915199111	Marionette	INFO	Listening on port 54251
+1580915199539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915201582	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915201886	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915201938	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915227716	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileLIRRD8"
+*** You are running in headless mode.
+1580915229711	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915229825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915229825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915229825	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915229826	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915232577	Marionette	INFO	Listening on port 54420
+1580915232982	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915235220	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915235530	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915235565	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915304026	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileRzWoGN"
+*** You are running in headless mode.
+1580915306157	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915306269	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915306270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915306270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915306270	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915308097	Marionette	INFO	Listening on port 54612
+1580915308242	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915313763	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915314025	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915314028	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915333929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileivTuN8"
+*** You are running in headless mode.
+1580915335881	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580915336023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580915336023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580915336023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580915336023	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580915338124	Marionette	INFO	Listening on port 54807
+1580915338180	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580915340598	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915340857	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580915340945	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916290804	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileq2A683"
+*** You are running in headless mode.
+1580916293208	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580916293332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580916293332	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580916293333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580916293333	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580916297001	Marionette	INFO	Listening on port 55959
+1580916297045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580916312974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileRh6P0w"
+*** You are running in headless mode.
+1580916315243	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580916315356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580916315356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580916315356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580916315356	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580916317323	Marionette	INFO	Listening on port 56107
+1580916317714	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580916320129	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916320392	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916320457	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916435315	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\An\\AppData\\Local\\Temp\\rust_mozprofileZp85A2"
+*** You are running in headless mode.
+1580916438062	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1580916438264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1580916438264	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1580916438265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1580916438265	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1580916441760	Marionette	INFO	Listening on port 56475
+1580916442169	Marionette	WARN	TLS certificate errors will be ignored for this session
+1580916444845	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916445105	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64
+1580916445156	Marionette	WARN	TimedPromise timed out after 0 ms: stacktrace:
+bail@chrome://marionette/content/sync.js:237:64

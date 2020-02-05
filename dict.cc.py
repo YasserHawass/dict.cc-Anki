@@ -124,8 +124,16 @@ def run():
         if i == args.max_results:
             break
     # MOD
-    outF = open("anki.txt", "a")
-    line = str(result.translation_tuples[0][0][:str(result.translation_tuples[0][0]).index(" "):]) + "\t"+ str(result.translation_tuples[0][1][:str(result.translation_tuples[0][1]).index(" "):]) + "[sound:" + args.word + ".mp3]"
+    try:
+        english_word = str(result.translation_tuples[0][0][:str(result.translation_tuples[0][0]).index(" "):])
+    except ValueError:
+        english_word = str(result.translation_tuples[0][0])
+    try:
+        translated_word = str(result.translation_tuples[0][1][:str(result.translation_tuples[0][1]).index(" "):])
+    except ValueError:
+        translated_word = str(result.translation_tuples[0][1])
+    line = english_word + "\t"+ translated_word + "[sound:" + args.word + ".mp3]"
+    outF = open("anki.txt", "a", encoding='UTF-8',)
     outF.write(line)
     outF.write("\n")
     outF.close()
