@@ -3,7 +3,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.firefox.options import Options
 import re
+import urllib3
+
 # MOB
 import requests
 
@@ -66,8 +69,9 @@ class Dict(object):
             headers={'User-agent': 'Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0'}
         )
         # MOD
-        # print(word)
-        driver = webdriver.Firefox()
+        options = Options()
+        options.headless = True
+        driver = webdriver.Firefox(options=options)
         driver.get("https://" + from_language.lower() + to_language.lower() + ".dict.cc/")
         element1 = driver.find_element_by_id("sinp")
         element1.send_keys(word)
@@ -88,24 +92,34 @@ class Dict(object):
         # Dict Name:Code [ele.get_attribute('...')]
         # input[Code], brick, Paragraph[text[Name]]
         # print(help(menu1))
+
+        
         lista = [i.get_attribute("onclick") for i in menu1.find_elements_by_css_selector("input")]
         list_pc = [i.get_attribute("text") for i in menu1.find_elements_by_css_selector("b")]
         list_users = [i.get_property("text") for i in menu1.find_elements_by_css_selector('a') if i.get_property("style")["color"] == '' ]
         txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
         resa = re.search("\(.*?,", txt)
         # https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=370161&lang=rec&lp=DEEN
-        print("https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=" + resa.group()[1:-1:] + "&lang=rec&lp=DEEN")
-        # print(resa)
-        # for user in list_users:
-        #     if user == " Halmafelix":
-        #         print()
-        # for i in lista:
-            # print(12:)
+        mp3_Url = "https://audio.dict.cc/speak.audio.v2.php?error_as_text=1&type=mp3&id=" + resa.group()[1:-1:] + "&lang=rec&lp=DEEN"
+        print(mp3_Url)
+
+        connection_pool = urllib3.PoolManager()
+        resp = connection_pool.request('GET', mp3_Url)
+        f = open(word + ".mp3", 'wb')
+        f.write(resp.data)
+        f.close()
+        resp.release_conn()
+        
+
+
+
+
+
         # Press it
-        actions = ActionChains(driver)
-        actions.move_to_element_with_offset(button2,0,0)
-        actions.click()
-        actions.perform()
+        # actions = ActionChains(driver)
+        # actions.move_to_element_with_offset(button2,0,0)
+        # actions.click()
+        # actions.perform()
         
         # button1 = driver.find_elements_by_css_selector("table:nth-child(7) tbody:nth-child(1) tr:nth-child(3) td.td7cmr:nth-child(4) > img:nth-child(1)")
         # button1.click()
