@@ -98,7 +98,7 @@ class Dict(object):
         list_pc = [i.get_attribute("text") for i in menu1.find_elements_by_css_selector("b")]
         list_users = [i.get_property("text") for i in menu1.find_elements_by_css_selector('a') if i.get_property("style")["color"] == '' ]
         try:
-            txt = lista[list_users.index(" Halmafelix") + len(list_pc) - 1]
+            txt = lista[list_users.index(" Halmafelix") + len(list_pc) ]
         except ValueError:
             print("didin't find Halmaflix")
             txt = lista[len(list_pc) - 1] 
